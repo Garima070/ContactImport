@@ -30,7 +30,6 @@ const Home = () => {
   return (
     <div>
       <ContactList contacts={contacts} />
-      <Pagination currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
     </div>
   );
 };
